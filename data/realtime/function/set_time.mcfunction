@@ -10,3 +10,5 @@ $time add $(second)t
 #tellraw @a {"nbt":"hour","storage":"realtime:time"}
 #tellraw @a {"nbt":"minute","storage":"realtime:time"}
 #tellraw @a {"nbt":"second","storage":"realtime:time"}
+
+gamerule sendCommandFeedback false
