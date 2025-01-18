@@ -1,7 +1,5 @@
 scoreboard objectives add time dummy
 
-tellraw @a [{"text":"[Realtime] The current time is "},{"nbt":"hour","storage":"realtime:time"},{"text":":"},{"nbt":"minute","storage":"realtime:time"},{"text":":"},{"nbt":"second","storage":"realtime:time"}]
-
 scoreboard players set #minute_converter time 166667
 scoreboard players set #second_converter time 2777
 
